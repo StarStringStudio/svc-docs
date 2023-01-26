@@ -42,6 +42,7 @@ export default async () => defineConfig({
           makeLink('基础环境安装与建设', '/1/index.md'),
           makeLink('Anconda 安装与换源', '/1/1.md'),
           makeLink('DiffSVC 推理和预处理环境', '/1/2.md'),
+          makeLink('疑难解答', '/1/2-out.md'),
         ],
       }],
       // '/2/': [{
