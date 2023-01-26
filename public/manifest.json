@@ -1,0 +1,15 @@
+{
+  "name": "DiffSVCDocs",
+  "short_name": "DiffSVCDocs",
+  "description": "DiffSVC0基础训练文档",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#5546a3",
+  "icons": [
+    {
+      "sizes": "384x384",
+      "type": "image/png"
+    }
+  ]
+}

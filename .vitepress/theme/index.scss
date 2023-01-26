@@ -1,0 +1,31 @@
+.layout-home {
+  .VPNav {
+    background-color: transparent !important;
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+
+    @media (max-width: 959px) {
+      -webkit-backdrop-filter: saturate(50%) blur(8px) !important;
+      backdrop-filter: saturate(50%) blur(8px) !important;
+    }
+  }
+
+  .VPNavBar {
+    border-bottom: none !important;
+  }
+}
+
+.markdown {
+  a:hover {
+    text-decoration: underline;
+  }
+
+  code {
+    color: var(--fg2);
+    padding: 0.25rem 0.5rem;
+    background-color: var(--page-bg);
+    border-radius: 3px;
+    overflow-wrap: break-word;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
