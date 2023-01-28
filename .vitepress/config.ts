@@ -16,12 +16,12 @@ export default async () => defineConfig({
       text: '基础环境安装与建设',
       link: '/1/',
       activeMatch: '^/1/',
-    }
-    // , {
-    //   text: '数据集处理与制作',
-    //   link: '/2/',
-    //   activeMatch: '^/2/',
-    // }, {
+    }, {
+      text: '数据集处理与制作',
+      link: '/2/',
+      activeMatch: '^/2/',
+    },
+    //  {
     //   text: '数据预处理',
     //   link: '/3/',
     //   activeMatch: '^/3/',
@@ -45,11 +45,11 @@ export default async () => defineConfig({
           makeLink('疑难解答', '/1/2-out.md'),
         ],
       }],
-      // '/2/': [{
-      //   items: [
-      //     makeLink('数据集处理与制作', '/2/index.md'),
-      //   ],
-      // }],
+      '/2/': [{
+        items: [
+          makeLink('数据集处理与制作', '/2/index.md'),
+        ],
+      }],
       // '/3/': [{
       //   items: [
       //     makeLink('数据预处理', '/3/index.md'),

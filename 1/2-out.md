@@ -46,6 +46,14 @@ pip install torch-1.12.0+cu113-cp38-cp38-win_amd64.whl torchaudio-0.12.0+cu113-c
 -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
 ```
 
+:::danger
+此操作将使用 trusted host 来强迫 pip 包管理器忽略 SSL 证书
+
+极易导致流量劫持所造成的计算机入侵
+
+其后果您需自负
+:::
+
 :::tip
 替换命令并不能完全解决问题, 后续问题可能更加严重
 :::
@@ -54,8 +62,15 @@ pip install torch-1.12.0+cu113-cp38-cp38-win_amd64.whl torchaudio-0.12.0+cu113-c
 
 右上角加群 直接往群里发送
 
-```txt
-msvc安装
-```
+<chat-panel>
+    <chat-message nickname="你" color="#f3caca">
+        <p>msvc安装</p>
+    </chat-message>
+    <chat-message nickname="Alice" color="#cc0066">
+        <a style="cursor: pointer" onclick="window.open(`https://download.visualstudio.microsoft.com/download/pr/6d7709aa-465b-4604-b797-3f9c1d911e67/c4cbd4106b2b6ebd5e88e75d025b0ecbea6600d458ec1a8a795fe2212b3d9f8e/vs_Community.exe`)">https://download.visualstudio.microsoft.com/download/pr/6d7709aa-465b-4604-b797-3f9c1d911e67/c4cbd4106b2b6ebd5e88e75d025b0ecbea6600d458ec1a8a795fe2212b3d9f8e/vs_Community.exe</a>
+        <p>下载完跟着步骤走，然后按着图安装</p>
+        <img src="msvc.PNG"/>
+    </chat-message>
+</chat-panel>
 
 机器人将会回答你的问题
