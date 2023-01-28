@@ -69,7 +69,7 @@ pip install torch-1.12.0+cu113-cp38-cp38-win_amd64.whl torchaudio-0.12.0+cu113-c
     <chat-message nickname="Alice" color="#cc0066">
         <a style="cursor: pointer" onclick="window.open(`https://download.visualstudio.microsoft.com/download/pr/6d7709aa-465b-4604-b797-3f9c1d911e67/c4cbd4106b2b6ebd5e88e75d025b0ecbea6600d458ec1a8a795fe2212b3d9f8e/vs_Community.exe`)">https://download.visualstudio.microsoft.com/download/pr/6d7709aa-465b-4604-b797-3f9c1d911e67/c4cbd4106b2b6ebd5e88e75d025b0ecbea6600d458ec1a8a795fe2212b3d9f8e/vs_Community.exe</a>
         <p>下载完跟着步骤走，然后按着图安装</p>
-        <img src="/1/msvc.png"/>
+        <img src="/public/msvc.png"/>
     </chat-message>
 </chat-panel>
 
