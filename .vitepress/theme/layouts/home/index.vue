@@ -2,12 +2,6 @@
   <div class="layout-home" :class="{ moving }">
     <div class="track track-main" :style="main">
       <slide1 @swipe="move(1)"></slide1>
-      <slide2></slide2>
-      <slide3></slide3>
-      <slide4></slide4>
-    </div>
-    <div class="track track-demo" :style="demo">
-      <carousel :position="position"></carousel>
     </div>
   </div>
 </template>

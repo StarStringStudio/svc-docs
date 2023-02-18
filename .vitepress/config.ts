@@ -3,7 +3,7 @@ import { defineConfig } from '@koishijs/vitepress'
 const makeLink = (text: string, link: string) => ({ text, link })
 
 export default async () => defineConfig({
-  title: 'DiffSVC-docs',
+  title: 'SVC-Docs',
 
   head: [
       ['link', { rel: 'manifest', href: '/manifest.json' }],
@@ -13,14 +13,10 @@ export default async () => defineConfig({
   themeConfig: {
     indexName: 'docs',
     nav: [{
-      text: '基础环境安装与建设',
-      link: '/1/',
-      activeMatch: '^/1/',
-    }, {
-      text: '数据集处理与制作',
-      link: '/2/',
-      activeMatch: '^/2/',
-    },
+      text: 'DiffSVC',
+      link: '/diffsvc/',
+      activeMatch: '^/diffsvc/',
+    }
     //  {
     //   text: '数据预处理',
     //   link: '/3/',
@@ -37,17 +33,23 @@ export default async () => defineConfig({
   ],
 
     sidebar: {
-      '/1/': [{
+      '/diffsvc/': [{
         items: [
-          makeLink('基础环境安装与建设', '/1/index.md'),
-          makeLink('Anconda 安装与换源', '/1/1.md'),
-          makeLink('DiffSVC 推理和预处理环境', '/1/2.md'),
-          makeLink('疑难解答', '/1/2-out.md'),
+          makeLink('基础环境安装与建设', '/diffsvc/1/index.md'),
+          makeLink('数据集处理与制作', '/diffsvc/2/index.md'),
         ],
       }],
-      '/2/': [{
+      '/diffsvc/1/': [{
         items: [
-          makeLink('数据集处理与制作', '/2/index.md'),
+          makeLink('基础环境安装与建设', '/diffsvc/1/index.md'),
+          makeLink('Anconda 安装与换源', '/diffsvc/1/1.md'),
+          makeLink('DiffSVC 推理和预处理环境', '/diffsvc/1/2.md'),
+          makeLink('疑难解答', '/diffsvc/1/2-out.md'),
+        ],
+      }],
+      '/diffsvc/2/': [{
+        items: [
+          makeLink('数据集处理与制作', '/diffsvc/2/index.md'),
         ],
       }],
       // '/3/': [{
