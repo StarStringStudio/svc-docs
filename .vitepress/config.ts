@@ -35,7 +35,16 @@ export default async () => defineConfig({
     sidebar: {
       '/diffsvc/': [{
         items: [
-          makeLink('基础环境安装与建设', '/diffsvc/1/index.md'),
+          // makeLink('基础环境安装与建设', '/diffsvc/1/index.md'),
+          {
+            text: '基础环境安装与建设',
+            items: [
+              // makeLink('基础环境安装与建设', '/diffsvc/1/index.md'),
+              makeLink('Anconda 安装与换源', '/diffsvc/1/1.md'),
+              makeLink('DiffSVC 推理和预处理环境', '/diffsvc/1/2.md'),
+              makeLink('疑难解答', '/diffsvc/1/2-out.md'),
+            ],
+          },
           makeLink('数据集处理与制作', '/diffsvc/2/index.md'),
         ],
       }],
