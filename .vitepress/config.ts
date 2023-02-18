@@ -11,6 +11,7 @@ export default async () => defineConfig({
   ],
 
   themeConfig: {
+    // editLink:
     indexName: 'docs',
     nav: [{
       text: 'DiffSVC',
@@ -86,6 +87,12 @@ export default async () => defineConfig({
 
     socialLinks: {
       qq: 'https://jq.qq.com/?_wv=1027&k=N0wZJ5RK',
+      github: 'https://github.com/StarStringStudio/SVC-Docs',
+
+    },
+    editLink: {
+      text: "这页教程有问题!",
+      pattern: "https://github.com/StarStringStudio/SVC-Docs/edit/master/:path"
     },
   },
   base: "/"
