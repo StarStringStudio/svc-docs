@@ -58,7 +58,7 @@ pip install torch-1.12.0+cu113-cp38-cp38-win_amd64.whl torchaudio-0.12.0+cu113-c
 替换命令并不能完全解决问题, 后续问题可能更加严重
 :::
 
-## MSVC, I *\*** u
+## MSVC, I *\*\*\* u
 
 右上角加群 直接往群里发送
 
